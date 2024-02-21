@@ -11,7 +11,7 @@
     <div class="container text-center">
         <h1>List of iPhones</h1>
     </div>
-    <div class="container">
+    <div class="container col-5 mt-4">
         <ul>
             @foreach ($product as $item)
                 <li>{{$item}}</li>
